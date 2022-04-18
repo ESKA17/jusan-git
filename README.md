@@ -1,3 +1,4 @@
+
 # stepik-id-printer (h1)
 
 Это проект для вывода моего персонального идентификатора на *образовательной платформе* `stepik.org`
@@ -18,23 +19,24 @@
 Данный проект можно портировать на другие языки программирования.
 
 На Java
-
-	class Main {
-		public static void main(String [] args) {
-			System.out.println("777");
-		}
+```Java
+class Main {
+	public static void main(String [] args) {
+		System.out.println("777");
 	}
-
+}
+```
 На C++
-
-	#include <iostream>
+```C++
+#include <iostream>
 	
-	using namespace std;
+using namespace std;
 	
-	int main() {
-		cout << 777 << endl;
-		return 0;
-	}
+int main() {
+	cout << 777 << endl;
+	return 0;
+}
+```
 > 💡 Попробуйте реализовать на Python, Go и JavaScript.
 
 ## Контакаты разработчика(h2)
